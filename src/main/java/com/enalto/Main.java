@@ -3,8 +3,6 @@ package com.enalto;
 import com.enalto.generics.HashTable;
 import com.enalto.generics.Store;
 
-import java.util.Hashtable;
-
 public class Main {
     public static void main(String[] args) {
         Store<String> item = new Store("item");
