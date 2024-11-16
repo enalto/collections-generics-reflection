@@ -1,12 +1,18 @@
 package com.enalto;
 
+import com.enalto.generics.HashTable;
 import com.enalto.generics.Store;
+
+import java.util.Hashtable;
 
 public class Main {
     public static void main(String[] args) {
         Store<String> item = new Store("item");
 
-        System.out.println(item.getItem());
+        HashTable<String, Integer> saldos =
+                new HashTable<>("Computador", 10);
+
+        System.out.println(saldos);
     }
 
     public static void add(int num1, int num2) {
