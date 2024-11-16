@@ -1,9 +1,21 @@
 package com.enalto;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import com.enalto.generics.Store;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Store<String> item = new Store("item");
+
+        System.out.println(item.getItem());
+    }
+
+    public static void add(int num1, int num2) {
+        int result = num1 + num2;
+        System.out.println(result);
+    }
+
+    public static void add(double num1, double num2) {
+        double result = num1 + num2;
+        System.out.println(result);
     }
 }
