@@ -18,9 +18,14 @@ public class LinkedListExample {
         list.add(10);
         list.add(15);
 
+        list.removeFirst();
+        list.removeLast();
+
         for (Integer number : list) {
             System.out.println(number);
         }
+
+        System.out.println("Empty ? "+list.isEmpty());
 
     }
 }
