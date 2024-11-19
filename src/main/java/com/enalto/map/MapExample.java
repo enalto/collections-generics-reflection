@@ -1,4 +1,4 @@
-package com.enalto;
+package com.enalto.map;
 
 import java.util.HashMap;
 import java.util.Map;
